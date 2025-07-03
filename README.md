@@ -82,7 +82,7 @@ else:
 
 print("Result:", result)
  
-## 5. Age Categorize
+## 5. Age Category
    
  age = int(input("Enter your age: "))
 
