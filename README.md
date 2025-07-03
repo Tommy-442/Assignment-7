@@ -1,5 +1,5 @@
 # Assignment-7
-## Assignment Question
+# Assignment Question
 1. Data Type Identification
 Create four variables, one each for age, height, name, and whether you're a
 student. Print the type of each variable.
@@ -15,8 +15,8 @@ on user input.
 Ask the user to enter their age and print the category:
 0-12: Child, 13-19: Teen, 20-64: Adult, 65+: Senior.
    
- ## Python variables to solve the question
-1. Data Type Identification
+ # Python variables to solve the question
+## 1. Data Type Identification
    
 age = 23            # integer
 height = 5.6        # float
@@ -28,7 +28,7 @@ print("Type of height:", type(height))
 print("Type of name:", type(name))
 print("Type of student:", type(student))
 
-2. Function Creation
+## 2. Function Creation
    
   def greet_user(name):
     return f"Welcome, {name}!"
@@ -36,7 +36,7 @@ print("Type of student:", type(student))
 message = greet_user("Tomiwa")
 print(message)
 
-3. Mini Login System (Input + Conditions)
+## 3. Mini Login System (Input + Conditions)
    
 Get username and password from user
 username = input("Enter your username: ")
@@ -48,7 +48,7 @@ if username == "Adetomiwa-123" and password == "1234456":
 else:
     print("Access denied")
 
-  4. Basic Calculator (Functions + Conditions)
+  ## 4. Basic Calculator (Functions + Conditions)
      
     Define functions for each operation
 def add(x, y):
@@ -82,7 +82,7 @@ else:
 
 print("Result:", result)
  
-5. Age Categorize
+## 5. Age Categorize
    
  age = int(input("Enter your age: "))
 
