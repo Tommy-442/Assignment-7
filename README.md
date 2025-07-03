@@ -17,6 +17,7 @@ Ask the user to enter their age and print the category:
    
  ## Python variables to solve the question
 1. Data Type Identification
+   
 age = 23            # integer
 height = 5.6        # float
 name = "Adeyemi Tomiwa"   # string
@@ -28,6 +29,7 @@ print("Type of name:", type(name))
 print("Type of student:", type(student))
 
 2. Function Creation
+   
   def greet_user(name):
     return f"Welcome, {name}!"
 
@@ -35,6 +37,7 @@ message = greet_user("Tomiwa")
 print(message)
 
 3. Mini Login System (Input + Conditions)
+   
 Get username and password from user
 username = input("Enter your username: ")
 password = input("Enter your password: ")
@@ -80,6 +83,7 @@ else:
 print("Result:", result)
  
 5. Age Categorize
+   
  age = int(input("Enter your age: "))
 
 if age >= 0 and age <= 12:
