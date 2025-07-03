@@ -46,6 +46,7 @@ else:
     print("Access denied")
 
   4. Basic Calculator (Functions + Conditions)
+     
     Define functions for each operation
 def add(x, y):
     return x + y
@@ -58,11 +59,13 @@ def divide(x, y):
         return x / y
     else:
         return "Cannot divide by zero"
- Get user inputs
+        
+    Get user inputs
 num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
 operation = input("Choose operation (add, subtract, multiply, divide): ")
- Perform calculation
+
+    Perform calculation
 if operation == "add":
     result = add(num1, num2)
 elif operation == "subtract":
@@ -76,7 +79,7 @@ else:
 
 print("Result:", result)
  
-5. Age Categorizer
+5. Age Categorize
  age = int(input("Enter your age: "))
 
 if age >= 0 and age <= 12:
