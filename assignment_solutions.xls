@@ -1,0 +1,64 @@
+Question,Code
+Question 1,"age = 25
+height = 5.9
+name = ""Adeyemi Tomiwa""
+student = True
+
+print(""age:"", type(age))
+print(""height:"", type(height))
+print(""name:"", type(name))
+print(""student:"", type(student))"
+Question 2,"def greet_user(name):
+    return f""Welcome, {name}!""
+
+print(greet_user(""Tomiwa""))"
+Question 3,"username = input(""Enter your username: "")
+password = input(""Enter your password: "")
+
+if username == ""Adetomiwa-123"" and password == ""1234567"":
+    print(""Login successful"")
+else:
+    print(""Access denied"")"
+Question 4,"def add(x, y):
+    return x + y
+
+def subtract(x, y):
+    return x - y
+
+def multiply(x, y):
+    return x * y
+
+def divide(x, y):
+    if y != 0:
+        return x / y
+    else:
+        return ""Cannot divide by zero""
+
+num1 = float(input(""Enter first number: ""))
+num2 = float(input(""Enter second number: ""))
+operation = input(""Choose operation (add, subtract, multiply, divide): "")
+
+if operation == ""add"":
+    result = add(num1, num2)
+elif operation == ""subtract"":
+    result = subtract(num1, num2)
+elif operation == ""multiply"":
+    result = multiply(num1, num2)
+elif operation == ""divide"":
+    result = divide(num1, num2)
+else:
+    result = ""Invalid operation selected""
+
+print(""Result:"", result)"
+Question 5,"age = int(input(""Enter your age: ""))
+
+if age >= 0 and age <= 12:
+    print(""You are a Child."")
+elif age >= 13 and age <= 19:
+    print(""You are a Teen."")
+elif age >= 20 and age <= 64:
+    print(""You are an Adult."")
+elif age >= 65:
+    print(""You are a Senior."")
+else:
+    print(""Invalid age entered."")"
