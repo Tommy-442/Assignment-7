@@ -35,7 +35,7 @@ message = greet_user("Tomiwa")
 print(message)
 
 3. Mini Login System (Input + Conditions)
-   # Get username and password from user
+Get username and password from user
 username = input("Enter your username: ")
 password = input("Enter your password: ")
 
@@ -46,27 +46,22 @@ else:
     print("Access denied")
 
   4. Basic Calculator (Functions + Conditions)
-     # Define functions for each operation
+    Define functions for each operation
 def add(x, y):
     return x + y
-
 def subtract(x, y):
     return x - y
-
 def multiply(x, y):
     return x * y
-
 def divide(x, y):
     if y != 0:
         return x / y
     else:
         return "Cannot divide by zero"
-
  Get user inputs
 num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
 operation = input("Choose operation (add, subtract, multiply, divide): ")
-
  Perform calculation
 if operation == "add":
     result = add(num1, num2)
@@ -81,7 +76,7 @@ else:
 
 print("Result:", result)
  
-7. Age Categorizer
+5. Age Categorizer
  age = int(input("Enter your age: "))
 
 if age >= 0 and age <= 12:
